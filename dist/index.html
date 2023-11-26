@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+
+  
+  <link rel="icon" type="image/svg+xml" href="img/vite.svg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1A2E5A">
+  <title>Kwunch's Site</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+
+  <!-- BEGIN CSS -->
+  <style>
+    body {
+      font-family: 'Roboto Slab',fantasy;
+      font-size: 0.93em;
+      margin: 0;
+    }
+
+    header {
+      display: table;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    nav a.heading {
+      display: table-cell;
+      padding: 0 1em;
+      margin: 4px;
+      border: 2px outset #333399;
+      border-radius: 0.5em;
+      text-decoration: none;
+    }
+
+    p,h3 {
+      font-size: 1.25em;
+      margin: 0.75em 0;
+    }
+
+    h3 {
+      text-decoration: underline;
+    }
+
+    a {
+      color: #339;
+      background-color: #eee;
+    }
+    .emph a {
+      color: inherit;
+    }
+
+    section.view {
+      display: none;
+      max-width: 50em;
+      margin: auto;
+    }
+
+    div.col {
+      float: left;
+      width: 50%;
+    }
+
+    section.sub {
+      float: none;
+      clear: both;
+      margin: 0 1em;
+    }
+
+    ul.about {
+      font-size: 1.25em;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul.separate > li {
+      margin-top: 1em;
+    }
+
+    ul.about > li > ul {
+      padding-left: 30px;
+    }
+
+    .emph {
+      font-weight: bold;
+      color: #d33;
+    }
+
+    .small {
+      font-variant: small-caps;
+    }
+
+    table {
+      width: 100%;
+      font-size: 1.15em;
+    }
+    table.thin {
+      width: auto;
+      margin: auto;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ddd;
+    }
+
+    table,th,td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 0.25em;
+    }
+
+    th,td.num,td.date,td.blurb {
+      text-align: center;
+    }
+
+    #pitt-rep {
+      position: absolute;
+      top: -12px;
+      left: 0;
+      width: 300px;
+      height: 110px;
+      margin: 10px;
+      z-index: -1;
+    }
+
+    #rust-crab {
+      width: 150px;
+      height: 100px;
+      position: absolute;
+      top: 4px;
+      right: 12px;
+    }
+
+    #rustacean {
+      width: 200px;
+      height: 250px;
+      position: absolute;
+      left: 0;
+    }
+
+    #genny {
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    #unders {
+      text-decoration: underline;
+    }
+
+    #school {
+      font-weight: bold;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+    }
+
+    #school:hover {
+      background-color: white;
+      color: #333399;
+    }
+
+    #emails {
+      background-color: white;
+      color: black;
+    }
+
+    #emails:hover {
+      background-color: white;
+      color: #333399;
+    }
+
+  </style>
+  <!-- END CSS -->
+
+
+<link rel="preload" href="/yew_site-ae0871b7f97a36e7_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew_site-ae0871b7f97a36e7.js"></head><body><script type="module">import init from '/yew_site-ae0871b7f97a36e7.js';init('/yew_site-ae0871b7f97a36e7_bg.wasm');</script><script>(function () {
+    var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    var url = protocol + '//' + window.location.host + '/_trunk/ws';
+    var poll_interval = 5000;
+    var reload_upon_connect = () => {
+        window.setTimeout(
+            () => {
+                // when we successfully reconnect, we'll force a
+                // reload (since we presumably lost connection to
+                // trunk due to it being killed, so it will have
+                // rebuilt on restart)
+                var ws = new WebSocket(url);
+                ws.onopen = () => window.location.reload();
+                ws.onclose = reload_upon_connect;
+            },
+            poll_interval);
+    };
+
+    var ws = new WebSocket(url);
+    ws.onmessage = (ev) => {
+        const msg = JSON.parse(ev.data);
+        if (msg.reload) {
+            window.location.reload();
+        }
+    };
+    ws.onclose = reload_upon_connect;
+})()
+</script></body></html>
