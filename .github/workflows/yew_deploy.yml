@@ -1,0 +1,57 @@
+name: Deploy Rust With Yew Site
+on: [push, pull_request]
+jobs:
+
+  build:
+    name: Build Trunk
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Actions
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+      - name: Install latest nightly
+        uses: actions-rs/toolchain@v1
+        with:
+            toolchain: nightly
+            override: true
+            components: rustfmt, clippy
+      - uses: jetli/wasm-pack-action@v0.3.0
+        with:
+          version: 'latest'
+          
+      - name: Add wasm32
+        run: |
+            rustup target add wasm32-unknown-unknown
+      - name: Install trunk
+        run: |
+            cargo install --locked trunk
+      - name: Install wasm-bindgen-cli
+        run: |
+            cargo install --locked wasm-bindgen-cli
+      - name: Build For Release
+        run: |
+            trunk build --release
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./dist"
+          
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
