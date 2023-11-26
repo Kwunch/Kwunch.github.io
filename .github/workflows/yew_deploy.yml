@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
 
   build:
-    name: Build Trunk
+    name: Setup Environment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Actions
@@ -41,6 +41,7 @@ jobs:
           path: "./dist"
           
   deploy:
+    name: Deploy Pages
     needs: build
     runs-on: ubuntu-latest
     
