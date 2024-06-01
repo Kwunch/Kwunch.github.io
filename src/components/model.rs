@@ -21,7 +21,7 @@ impl Component for Model {
         html! {
                 <header>
                     <h1>{"Kwunch's Website"}</h1>
-                        <h3><a class="yew_link" href="https://www.yew.rs">{"Written in Rust with Yew"}</a></h3>
+                        <h3>{"Written in Rust with Yew"}</h3>
                             <nav>
                                 <h2>
                                     // Link to AboutMe page, when clicked, show AboutMe component
