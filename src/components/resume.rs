@@ -35,43 +35,43 @@ pub(crate) fn Resume() -> Html {
             <section class="sub">
               <h3>{"Main Languages"}</h3>
               <h4><li>{"These are languages that I regularly use. With Rust and C \
-              being my primary."}</li></h4>
+              being my primary languages."}</li></h4>
               <ul class="about separate">
                 <li>
                   <ul>
-                    <li>{"Rust"}</li>
+                    <li id="language">{"Rust"}</li>
                     <li>{"Eight Years Experience"}</li>
                     <li>{"Mastery"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"C/C++"}</li>
+                    <li id="language">{"C/C++"}</li>
                     <li>{"More Than 10 Years Experience"}</li>
                       <li>{"Mastery"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Swift"}</li>
+                    <li id="language">{"Swift"}</li>
                     <li>{"Four Years Experience"}</li>
                       <li>{"Advanced"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"GO"}</li>
+                    <li id="language">{"GO"}</li>
                     <li>{"Five Years Experience"}</li>
                       <li>{"Advanced"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Python"}</li>
+                    <li id="language">{"Python"}</li>
                     <li>{"More Than 10 Years Experience"}</li>
                     <li>{"Mastery"}</li>
-                    <li><h5>{"Note: I technically still use python regularly for scripting. However, \
-                    It has become more of what I would consider a pseudo language. I use it \
+                    <li><h5>{"Note: I still use python regularly for scripting, however, \
+                    it has become more of what I would consider a pseudo language. I use it \
                     for quick scripts and to test out ideas that I may later implement in a \
                     more robust language."}
                     </h5></li>
@@ -79,22 +79,22 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li>{"Assembly: ARM, MIPS, x86"}</li>
+                    <li id="language">{"Assembly: ARM, MIPS, x86"}</li>
                     <li>{"Mastery in ARM"}</li>
                     <li>{"Proficient in MIPS and x86"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"SQL, PostgreSQL, MongoDB"}</li>
+                    <li id="language">{"SQL, PostgreSQL, MongoDB"}</li>
                     <li>{"Proficient in All"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Shell Scripting"}</li>
-                    <li>{"Bash, Zsh, Fish"}</li>
-                    <li>{"Windows Batch"}</li>
+                    <li id="language">{"Shell Scripting"}</li>
+                    <li id="language">{"Bash, Zsh, Fish"}</li>
+                    <li id="language">{"Windows Batch"}</li>
                     <li>{"Proficient in All"}</li>
                   </ul>
                 </li>
@@ -112,14 +112,14 @@ pub(crate) fn Resume() -> Html {
               <ul class="about separate">
                 <li>
                   <ul>
-                    <li>{"Java"}</li>
+                    <li id="language">{"Java"}</li>
                     <li>{"More Than 10 Years Experience"}</li>
                     <li>{"Mastery"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"React"}</li>
+                    <li id="language">{"React"}</li>
                     <li>{"Four Years Experience"}</li>
                     <li>{"Proficient"}</li>
                     <li><h5>{"Note: I have not used React in a while. I have been using Yew \
@@ -129,49 +129,49 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li>{"Ruby"}</li>
+                    <li id="language">{"Ruby"}</li>
                     <li>{"More Than 10 Years Experience"}</li>
                       <li>{"Mastery"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"C#"}</li>
+                    <li id="language">{"C#"}</li>
                     <li>{"Six Years Experience"}</li>
                       <li>{"Advanced"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"R"}</li>
+                    <li id="language">{"R"}</li>
                     <li>{"Five Years Experience"}</li>
                       <li>{"Proficient"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Kotlin"}</li>
+                    <li id="language">{"Kotlin"}</li>
                     <li>{"Six Years Experience"}</li>
                     <li>{"Proficient"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Perl"}</li>
+                    <li id="language">{"Perl"}</li>
                     <li>{"Eight Years Experience"}</li>
                     <li>{"Proficient"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"MatLab"}</li>
+                    <li id="language">{"MatLab"}</li>
                     <li>{"Three Years Experience"}</li>
                     <li>{"Proficient"}</li>
                   </ul>
                 </li>
                 <li>
                   <ul>
-                    <li>{"Arduino"}</li>
+                    <li id="language">{"Arduino"}</li>
                     <li>{"Seven Years Experience"}</li>
                     <li>{"Mastery"}</li>
                     <li><h5>{"Note: I still use this somewhat use regularly, but it is being phased out \
