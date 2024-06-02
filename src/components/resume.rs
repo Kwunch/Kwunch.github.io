@@ -35,7 +35,7 @@ pub(crate) fn Resume() -> Html {
             <section class="sub">
               <h3>{"Main Languages"}</h3>
               <h4><li>{"These are languages that I regularly use. With Rust and C \
-              being my GOTOs."}</li></h4>
+              being my primary."}</li></h4>
               <ul class="about separate">
                 <li>
                   <ul>
@@ -73,7 +73,7 @@ pub(crate) fn Resume() -> Html {
                     <li><h5>{"Note: I technically still use python regularly for scripting. However, \
                     It has become more of what I would consider a pseudo language. I use it \
                     for quick scripts and to test out ideas that I may later implement in a \
-                    more robust language. At this point I do not use it for anything serious. "}
+                    more robust language."}
                     </h5></li>
                   </ul>
                 </li>
@@ -107,9 +107,8 @@ pub(crate) fn Resume() -> Html {
             <section class="sub">
               <h3>{"Other Languages"}</h3>
               <h4><li>{"These are languages I have used in the past and have a good understanding of. \
-              Though my use of them has decreased overtime or was miniscule to begin with. Some \
-              I still maintain a mastery in but you will see very few, if any, projects \
-               utilizing them."}</li></h4>
+              I maintain a mastery in them but you will see very few, if any, projects \
+              utilizing them."}</li></h4>
               <ul class="about separate">
                 <li>
                   <ul>
@@ -121,7 +120,7 @@ pub(crate) fn Resume() -> Html {
                 <li>
                   <ul>
                     <li>{"React"}</li>
-                    <li>{"Three Years Experience"}</li>
+                    <li>{"Four Years Experience"}</li>
                     <li>{"Proficient"}</li>
                     <li><h5>{"Note: I have not used React in a while. I have been using Yew \
                     for all of my front end development. I have no problem using React, but \
@@ -175,8 +174,8 @@ pub(crate) fn Resume() -> Html {
                     <li>{"Arduino"}</li>
                     <li>{"Seven Years Experience"}</li>
                     <li>{"Mastery"}</li>
-                    <li><h5>{"Note: Still somewhat use regularly, but is being phased out \
-                    by Embedded Rust and Raspberry Pi."}</h5></li>
+                    <li><h5>{"Note: I still use this somewhat use regularly, but it is being phased out \
+                    by Embedded Rust."}</h5></li>
                   </ul>
                 </li>
               </ul>

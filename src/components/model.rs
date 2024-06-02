@@ -36,7 +36,7 @@ impl Component for Model {
                                        ctx.props().on_click.reform(
                                             move |_| "projects".to_string().clone()
                                         )
-                                    }>{"KSLS Compression and Other Projects"}</a>
+                                    }>{"Projects"}</a>
 
                                     // Link to GitHub page, when clicked open GitHub
                                     <a class="heading" href="https://GitHub.com/Kwunch" target="_blank">
@@ -48,7 +48,7 @@ impl Component for Model {
                                        ctx.props().on_click.reform(
                                             move |_| "tutorials".to_string().clone()
                                         )
-                                    }>{"Rust Tutorials"}</a>
+                                    }>{"Papers"}</a>
 
                                     // Link to Resume page, when clicked, show Resume component
                                     <a class="heading" href="#resume" onclick={
