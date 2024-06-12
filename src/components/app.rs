@@ -19,7 +19,7 @@ impl Component for App {
             sections: vec![
                 "aboutme".to_string(),
                 "projects".to_string(),
-                "tutorials".to_string(),
+                "papers".to_string(),
                 "resume".to_string(),
                 "contact".to_string(),
             ],
@@ -62,7 +62,7 @@ impl Component for App {
                 <section id="info">
                     <about_me::AboutMe/>
                     <other_projects::Projects/>
-                    <tutorials::Tutorials/>
+                    <papers::Papers/>
                     <resume::Resume/>
                     <contacts::Contact/>
                 </section>

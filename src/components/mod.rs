@@ -4,4 +4,4 @@ pub(crate) mod contacts;
 pub(crate) mod model;
 pub(crate) mod app;
 pub(crate) mod other_projects;
-pub(crate) mod tutorials;
+pub(crate) mod papers;

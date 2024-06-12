@@ -5,6 +5,10 @@ pub(crate) fn Resume() -> Html {
     html! {
         <section class="view" id="sec:resume">
           <h2 id="genny">{"General Information"}</h2>
+          // Viewable hyperlink to view PDF version of resume
+          // Link is https://drive.proton.me/urls/ZNW5NYVAFR#ypYOygHRhAki
+          <h3><a id="pdf_resume" href="https://drive.proton.me/urls/ZNW5NYVAFR#ypYOygHRhAki" target="_blank">
+                {"View PDF Version"}</a></h3>
           <div class="col">
             <section class="sub">
               <h3>{"My Education"}</h3>
@@ -102,7 +106,6 @@ pub(crate) fn Resume() -> Html {
             </section>
           </div>
           <div class="col">
-            <h4><p>{"For a more detailed resume, please contact me."}</p></h4>
             <h4><p>{"To see my projects, please visit my GitHub."}</p></h4>
             <section class="sub">
               <h3>{"Other Languages"}</h3>

@@ -44,9 +44,9 @@ impl Component for Model {
                                     </a>
 
                                     // Link to Rust Tutorials page, when clicked, show Tutorials component
-                                    <a class="heading" href="#rust-tutorials" onclick={
+                                    <a class="heading" href="#papers" onclick={
                                        ctx.props().on_click.reform(
-                                            move |_| "tutorials".to_string().clone()
+                                            move |_| "papers".to_string().clone()
                                         )
                                     }>{"Papers"}</a>
 

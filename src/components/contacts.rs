@@ -31,14 +31,7 @@ pub(crate) fn Contact() -> Html {
                   <ul class="about separate">
                     <li>
                       <ul>
-                        <li><h4>{"Main Phone"}</h4></li>
                         <li>{"+1 (412)-606-4704"}</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <ul>
-                        <li><h4>{"Backup"}</h4></li>
-                        <li>{"TODO"}</li>
                       </ul>
                     </li>
                   </ul>
@@ -50,7 +43,7 @@ pub(crate) fn Contact() -> Html {
                   <ul class="about separate">
                     <li>
                       <ul>
-                        <li><h4>{"LinkdIn"}</h4></li>
+                        <h4>{"LinkedIn"}</h4>
                         <li>{"TODO"}</li>
                       </ul>
                     </li>
@@ -58,7 +51,7 @@ pub(crate) fn Contact() -> Html {
                   <ul class="about separate">
                     <li>
                       <ul>
-                        <li><h4>{"Reddit"}</h4></li>
+                        <h4>{"Reddit"}</h4>
                         <li>{"TODO"}</li>
                       </ul>
                     </li>
@@ -69,14 +62,8 @@ pub(crate) fn Contact() -> Html {
                   <ul class="about separate">
                     <li>
                       <ul>
-                        <li><h4>{"Discord"}</h4></li>
-                        <li>{"Kwunch#8600"}</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <ul>
-                        <li><h4>{"IRC"}</h4></li>
-                        <li>{"TODO"}</li>
+                        <h4>{"Discord"}</h4>
+                        <li>{".Kwunch"}</li>
                       </ul>
                     </li>
                   </ul>
