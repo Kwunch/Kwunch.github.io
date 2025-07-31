@@ -121,11 +121,11 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li id="language">{"Swift"}</li>
-                    <li>{"Four Years Experience"}</li>
-                      <li>{"Advanced"}</li>
+                    <li id="language">{"Ruby"}</li>
+                    <li>{"More Than 10 Years Experience"}</li>
+                      <li>{"Mastery"}</li>
                   </ul>
-                </li>
+                </li>                
                 <li>
                   <ul>
                     <li id="language">{"GO"}</li>
@@ -142,16 +142,9 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li id="language">{"C#"}</li>
-                    <li>{"Six Years Experience"}</li>
-                      <li>{"Advanced"}</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
                     <li id="language">{"Assembly: ARM, MIPS, x86"}</li>
                     <li>{"Mastery in ARM"}</li>
-                    <li>{"Proficient in MIPS and x86"}</li>
+                    <li>{"Proficient in ARM and x86"}</li>
                   </ul>
                 </li>
                 <li>
@@ -162,10 +155,9 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li id="language">{"Shell Scripting"}</li>
-                    <li id="language">{"Bash, Zsh, Fish"}</li>
+                    <li id="language">{"Bash Scripting"}</li>
                     <li id="language">{"Windows Batch"}</li>
-                    <li>{"Proficient in All"}</li>
+                    <li>{"Proficient in Both"}</li>
                   </ul>
                 </li>
               </ul>
@@ -175,9 +167,16 @@ pub(crate) fn Resume() -> Html {
             <section class="sub">
               <h3 class="resume_headers" id="others">{"Other Languages"}</h3>
               <h4><li>{"These are languages I have used in the past and have a good understanding of. \
-              I maintain a mastery in them but you will see very few, if any, projects \
+              I maintain a solid foundation (or mastery depending on language) in them but you will see very few, if any, projects \
               utilizing them."}</li></h4>
               <ul class="about separate">
+                <li>
+                  <ul>
+                    <li id="language">{"C#"}</li>
+                    <li>{"Six Years Experience"}</li>
+                      <li>{"Advanced"}</li>
+                  </ul>
+                </li>                
                 <li>
                   <ul>
                     <li id="language">{"Java"}</li>
@@ -204,13 +203,6 @@ pub(crate) fn Resume() -> Html {
                 </li>
                 <li>
                   <ul>
-                    <li id="language">{"Ruby"}</li>
-                    <li>{"More Than 10 Years Experience"}</li>
-                      <li>{"Mastery"}</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
                     <li id="language">{"R"}</li>
                     <li>{"Five Years Experience"}</li>
                       <li>{"Proficient"}</li>
@@ -221,22 +213,6 @@ pub(crate) fn Resume() -> Html {
                     <li id="language">{"Perl"}</li>
                     <li>{"Eight Years Experience"}</li>
                     <li>{"Proficient"}</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li id="language">{"MatLab"}</li>
-                    <li>{"Three Years Experience"}</li>
-                    <li>{"Proficient"}</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li id="language">{"Arduino"}</li>
-                    <li>{"Seven Years Experience"}</li>
-                    <li>{"Mastery"}</li>
-                    <h5 id="note">{"Note: I still use this somewhat use regularly, but it is being phased out \
-                    by Embedded Rust."}</h5>
                   </ul>
                 </li>
               </ul>
