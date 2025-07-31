@@ -138,11 +138,6 @@ pub(crate) fn Resume() -> Html {
                     <li id="language">{"Python"}</li>
                     <li>{"More Than 10 Years Experience"}</li>
                     <li>{"Mastery"}</li>
-                    <h5 id="note">{"Note: I still use python regularly for scripting, however, \
-                    it has become more of what I would consider a pseudo language. I use it \
-                    for quick scripts and to test out ideas that I may later implement in a \
-                    more robust language."}
-                    </h5>
                   </ul>
                 </li>
                 <li>
