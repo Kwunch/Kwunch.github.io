@@ -35,15 +35,7 @@ pub(crate) fn Resume() -> Html {
                         {"University of Pittsburgh"}</a></li>
                   </ul>
                 </li>
-                <li>
-                  <ul>
-                    <li>{"BS Quantum Computing and Physics"}</li>
-                    <li id="school"><a href="https://www.pitt.edu/about" id="school">
-                        {"University of Pittsburgh"}</a></li>
-                  </ul>
-                </li>
               </ul>
-              <h4><li>{"Leaving space here for grad school ;)"}</li></h4>
             </section>
             </div>
             <div class="middle_right">
