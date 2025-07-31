@@ -20,7 +20,7 @@ impl Component for Model {
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
                 <header>
-                    <h1>{"Kwunch's Website"}</h1>
+                    <h1>{"Sitio del 71buR0n"}</h1>
                         <h3><a class="yew_link" href="https://www.yew.rs">{"Written in Rust with Yew"}</a></h3>
                             <nav>
                                 <h2>
