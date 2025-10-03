@@ -9,7 +9,7 @@ pub(crate) fn Resume() -> Html {
           <div class="top_left_col">
             // Viewable hyperlink to view PDF version of resume
             // Link is https://drive.proton.me/urls/ZNW5NYVAFR#ypYOygHRhAki
-            <h3 class="resume_headers"><a id="pdf_resume" href="https://drive.proton.me/urls/P0K8162VER#LIRno515cxTV" target="_blank">
+            <h3 class="resume_headers"><a id="pdf_resume" href="https://drive.proton.me/urls/BZ78R6FDNR#CIohxR1UIQXJ" target="_blank">
                   {"View PDF Version"}</a></h3>
           </div>
           <div class="top_right_col">
